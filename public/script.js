@@ -25,7 +25,7 @@ function checkStatus(response) {
     }
 
 
-   const BASE_URL = "https://legendary-succotash-v6qggjrw6q27qg-3000.app.github.dev/"; // REPLACE WITH PUBLIC URL TO YOUR CODESPACE OF BOOKS-SERVICE
+   const BASE_URL = "https://books-service-c2og.onrender.com/";
 
           fetch(BASE_URL)
             .then(checkStatus)
